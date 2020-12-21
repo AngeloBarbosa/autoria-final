@@ -1,6 +1,33 @@
+
 body > *{
     width: 1200px;
     margin: auto;
     color: white;
     background-color: white;
+}
+
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+
+}
+
+ul {
+    top: 200px;
+    display: flex;
+    list-style-type: none;
+    height: 50px;
+}
+
+ul li {
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
